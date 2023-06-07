@@ -11,7 +11,7 @@ After fine-tuning, specify the model path in `mcts.slurm`, execute `bash mcts.sl
 ## Citation
 Please consider citing our paper and starring this repo if you find them helpful. Thank you!
 ```bibtex
-@article{zhu2022solving,
+@article{zhu2022core,
          title={Solving Math Word Problem via Cooperative Reasoning induced Language Models},
          author={Zhu, Xinyu and Wang, Junjie and Zhang, Lin and Zhang, Yuxiang and Gan, Ruyi and Zhang, Jiaxing and Yang, Yujiu},
          journal={arXiv preprint arXiv:2210.16257},
