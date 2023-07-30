@@ -1,5 +1,16 @@
 # Solving Math Word Problems via Cooperative Reasoning induced Language Models (ACL 2023)
+![core_framework](images/core_framework.png#pic_center)
+
+## Visualization
+
+![core_framework](images/core_visualization.png#pic_center)
+
+### MCTS Log
+
+![core_framework](images/core_log.png#pic_center)
+
 ## Data preparation
+
 put the dataset under `data/`
 ## Fine tune generator
 Set the hyperparameters in `train.slurm` and execute `bash train.slurm`
