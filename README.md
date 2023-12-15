@@ -18,7 +18,13 @@ Set the hyperparameters in `train.slurm` and execute `bash train.slurm`
 Set the hyperparameters in `train_verifier.slurm` and execute `bash train_verifier.slurm`
 ## MCTS
 After fine-tuning, specify the model path in `mcts.slurm`, execute `bash mcts.slurm`. Note that the provided script will not produce reasonable outputs unless the generator and verifiers are properly fine-tuned.
-
+## Requirements
+```
+pytorch-lightning==1.6.4
+torch==1.10.0
+python==3.8
+cuda==11.1
+```
 ## Citation
 Please consider citing our paper and starring this repo if you find them helpful. Thank you!
 ```bibtex
